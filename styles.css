@@ -3,6 +3,9 @@
 	width: 300px;
 	background-color: green;
 	text-align: center;
+	top: 20px;
+	position: relative;
+	left: 20px;
 }
 
 #middle-box{
@@ -11,6 +14,9 @@
 	background-color: black;
 	margin: auto;
 	text-align: center;
+	position: fixed;
+	right: 0;
+	bottom: 0;
 }
 
 #inside-box{
@@ -19,4 +25,7 @@
 	background-color: red;
 	margin:  auto;
 	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
