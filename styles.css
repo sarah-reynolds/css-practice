@@ -1,0 +1,22 @@
+#outside-box{
+	height: 300px;
+	width: 300px;
+	background-color: green;
+	text-align: center;
+}
+
+#middle-box{
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	margin: auto;
+	text-align: center;
+}
+
+#inside-box{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	margin:  auto;
+	text-align: center;
+}
