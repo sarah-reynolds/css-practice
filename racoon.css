@@ -1,0 +1,112 @@
+body{
+    position: relative;
+    background-color: DarkSeaGreen;
+}
+
+#raccoon-head {
+    border-style: solid;
+    border-color: transparent transparent gray transparent;
+    border-width: 0 25px 65px 25px;
+    height: 0;
+    width: 350px;
+    position: absolute;
+    margin: 150px 0 50px 0;
+}
+#raccoon-head:after {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-width: 120px 200px 0 200px;
+}
+
+#forehead {
+    width: 37px;
+    height: 117px;
+    background-color: gray;
+    position: absolute;
+    margin-left: 182px;
+    top: 200px;
+    z-index: 2;
+}
+
+#left-ear {
+    position:  absolute;
+    width: 0;
+    height: 0;
+    top: 65px;
+    margin-left: 45px;
+    border-bottom: 85px solid gray;
+    border-right: 85px solid transparent;
+}
+
+#right-ear {
+    position:  absolute;
+    width: 0;
+    height: 0;
+    top: 65px;
+    margin-left: 270px;
+    border-bottom: 85px solid gray;
+    border-left: 85px solid transparent;
+}
+
+#left-eye {
+    width: 0;
+    height: 0;    
+    position: absolute;
+    top:  215px;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 54px solid black;
+    z-index: 1;
+}
+
+#right-eye {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-left: 220px;
+    top: 215px;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 54px solid black;
+    z-index: 1;
+}
+
+#left-pupil {
+    width: 20px;
+    height: 10px;    
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 50px 50px;
+    top:  225px;
+    margin-left: 90px;
+    z-index: 2;
+}
+
+#right-pupil {
+    width: 20px;
+    height: 10px;    
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 50px 50px;
+    top:  225px;
+    margin-left: 290px;
+    z-index: 3;
+}
+
+#nose {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-left: 170px;
+    top: 317px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid black;
+    z-index: 1;
+}
